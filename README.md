@@ -2,3 +2,4 @@
 
 - Salinas Federico Agustin, github: FedericoAgustin
 - Gonzalez Barrios Nehuel Agustin, github: nehuelgonzalez
+- Severich Bruno Damian, github: brunoseve
