@@ -4,3 +4,4 @@
 - Gonzalez Barrios Nehuel Agustin, github: nehuelgonzalez
 - Nicolas Joaquin Quispe, github: Nicolop745
 - Severich Bruno Damian, github: brunoseve
+-Ibañez Chicchi Joaquín Nicolás: joaquín-iz-n
