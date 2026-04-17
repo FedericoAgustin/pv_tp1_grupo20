@@ -1,28 +1,86 @@
-/* Estilos para index.html */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FAF8F0;
+    color: #2B231E;
+    line-height: 1.6;
+}
 
+/* NAVBAR */
+nav {
+    background-color: #BB6D28;
+    padding: 15px 20px;
+}
 
-/* Fin Estilos index.html */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
 
-/* Estilos para perfil.html */
+nav a {
+    color: #FAF8F0;
+    text-decoration: none;
+    font-weight: bold;
+}
 
+nav a:hover {
+    text-decoration: underline;
+}
 
+/* CONTENIDO PRINCIPAL */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 30px 15px;
+}
 
+/* TARJETA */
+article {
+    background-color: #E3C094;
+    max-width: 900px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
 
+/* TITULOS */
+h1 {
+    margin-bottom: 10px;
+    color: #2B231E;
+}
 
-/* Fin estilos perfil.html */
+h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #2B231E;
+}
 
-/* Estilos para proyectos.html */
+/* LINKS */
+a {
+    color: #BB6D28;
+}
 
+a:hover {
+    text-decoration: underline;
+}
 
+/* LISTAS */
+ul {
+    padding-left: 20px;
+}
 
-
-
-/* Fin estilos proyectos.html */
-
-/* Estilos para detalle*.html */
-
-
-
-
-/* Fin estilos detalle*.html */
+/* FOOTER */
+footer {
+    background-color: #877866;
+    color: #FAF8F0;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
