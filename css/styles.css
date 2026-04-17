@@ -153,3 +153,56 @@ text-decoration:underline;
 }
 
 /* fin proyecto.html*/
+
+/*PERFIL*/
+
+.link{
+    color:#2B231E;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link:hover{
+    color:#2B231E;
+    text-decoration: underline;
+}
+
+.datos{
+    background-color: #E3C094;
+    max-widht: 900px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.celda-foto{
+    width: 100px;
+    padding: 0;
+}
+
+.fto-usuario{
+    width: 100px;
+    height: auto;
+    display:block;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 3px solid black;
+    text-align: left;
+    padding: 10px;
+}
+
+td{
+    border: 3px solid black;
+}
+
+.columnas{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
