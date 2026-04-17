@@ -1,0 +1,204 @@
+nav {
+    background: #0a0a0a;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+nav a::before {
+    content: "";
+    position: absolute;
+    inset: -8px;
+    border-radius: 8px;
+    background: radial-gradient(circle, rgba(255,255,0,0.4), transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+
+nav a:hover {
+    opacity: 1;
+    color: #ffe600;
+    text-shadow: 
+        0 0 5px #ffe600,
+        0 0 10px #ffae00,
+        0 0 20px #ff6a00;
+    transform: scale(1.15);
+}
+
+nav a:hover::before {
+    opacity: 1;
+    animation: aura 0.6s infinite alternate;
+}
+
+@keyframes aura {
+    0% {
+        transform: scale(1);
+        filter: blur(2px);
+    }
+    100% {
+        transform: scale(1.2);
+        filter: blur(6px);
+    }
+}
+
+nav:hover a {
+    opacity: 0.3;
+}
+
+nav a:hover {
+    opacity: 1;
+}
+
+.foto-dbz-0 {
+    
+    background: url('../imagenes/fondo-main-dbz.png');
+    /* background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden; */
+}
+/* .foto-dbz {
+    background-image: url("imagenes/fondo-main-dbz.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+#contenedor-z {
+    /* background: white; */
+    width: 800px;
+    height: 800px;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px #000;
+    margin: 80px auto;
+    border: 1px solid #ffffff40
+}
+.foto-dbz-1 {
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.2);
+
+}
+.recursos-style a {
+    text-decoration: none ;
+    color: white;
+    font-weight: bold;
+}
+////////////////////////////////////////////////////////////////////////////////////////////
+ul{
+    display: block;
+}
+
+/* CONTENEDOR */
+.recursos-style ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 0;
+    /* overflow-x: hidden; */
+    width: 100%;
+}
+
+/* SACAR ESTILO DE LISTA */
+.recursos-style li {
+    list-style: none;
+    flex: 0 0 auto; 
+}
+
+/* 🔵 LINKS EN CÍRCULOS */
+.recursos-style a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+
+    background: radial-gradient(circle, #1a1a1a, #000);
+    box-shadow: 0 0 10px rgba(255, 200, 0, 0.3);
+
+    position: relative;
+    transition: all 0.3s ease;
+
+    border: 2px solid orange;
+    background: radial-gradient(circle, #ff9900, #cc5200);
+    color: black;
+}
+
+/* ⚡ AURA SAIYAJIN */
+.recursos-style a::before {
+    content: "";
+    position: absolute;
+    inset: -12px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,230,0,0.6), transparent 70%);
+    opacity: 0;
+    z-index: -1;
+}
+
+/* 💥 HOVER PODER */
+.recursos-style a:hover {
+    transform: scale(1.15);
+    color: #ffe600;
+
+    text-shadow: 
+        0 0 5px #ffe600,
+        0 0 15px #ffae00,
+        0 0 30px #ff6a00;
+
+    box-shadow: 
+        0 0 20px #ffe600,
+        0 0 40px #ffae00;
+}
+
+/* 🔥 ACTIVAR AURA */
+.recursos-style a:hover::before {
+    opacity: 1;
+    animation: auraDB 0.6s infinite alternate;
+}
+
+/* 🌊 ANIMACIÓN ENERGÍA */
+@keyframes auraDB {
+    0% {
+        transform: scale(1);
+        filter: blur(3px);
+    }
+    100% {
+        transform: scale(1.25);
+        filter: blur(10px);
+    }
+}
+.texto-blanco {
+    color: black;
+    /* font-weight: bold; */
+    /* -webkit-text-stroke: 0.5px rgb(255, 255, 255); */
+}
