@@ -1,7 +1,12 @@
+:root{
+   --fuente-titulo: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+
 }
 
 body {
@@ -84,3 +89,67 @@ footer {
     padding: 15px;
     margin-top: 30px;
 }
+/* inicio proyecto.html*/
+.section-proyectos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.section-proyectos article h2{
+    background-color: #E3C094;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    font-family: var(--fuente-titulo);
+    margin-bottom: 20px;
+}
+.section-proyectos article .categoria-p{
+    text-align: left;
+}
+.section-proyectos article a{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+.section-proyectos article a:hover{
+text-decoration:underline;
+}
+
+.section-proyectos article{
+    background-color: #E6BE8DAD;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.section-proyectos article img{
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    width: 300px; 
+    height: 250px;
+}
+.aside-proyectos{
+    margin-left: 20px;
+    background-color: #BB6D28;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.aside-proyectos div h3{
+    text-align: center;
+    background-color: #E3C094;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    font-family: var(--fuente-titulo)
+}
+.aside-proyectos div form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.aside-proyectos div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+/* fin proyecto.html*/
